@@ -1,0 +1,57 @@
+🎨 Overlay Design Notes
+
+Layout:
+
+Top banner: HeroLens logo + tagline “Reframing Civic Trust”
+
+Left panel: Live Policy Tracker (dynamic progress bars for promises kept, in progress, stalled)
+
+Right panel: Audience Input Feed (latest chat suggestions with upvote counts)
+
+Bottom ticker: “Latest Policy Questions” scrolling feed
+
+Visual Style:
+
+Palette: Royal blue (#1C3FAA), White (#FFFFFF), Gold (#FFD700), and Soft Gray (#EAEAEA)
+
+Font: Inter or Roboto for clarity
+
+Effects: Smooth fade-ins, glowing button highlights for interactive prompts
+
+💬 Live Chat Prompt Kit
+
+These are automated or streamer-triggered chat prompts that encourage viewers to co-create solutions and audit governance ideas live:
+
+Phase 1 — Kickoff
+
+"Type !trust to share one thing you need from government to feel heard."
+
+"If you could change one local policy today, what would it be? Type !policy"
+
+Phase 2 — Deep Dive
+
+"Vote on our current topic: Type !yes or !no to support this initiative."
+
+"Type !audit to request a transparency check on a public promise."
+
+Phase 3 — Action Commitments
+
+"We’re designing solutions live. Type !idea to submit your improvement suggestion."
+
+"Want to hold leadership accountable? Type !pledge to join the verification list."
+
+🛠 Interactive Widget Ideas
+
+Real-Time Promise Tracker — syncs with a shared Google Sheet or GitHub Issue list so progress bars update live.
+
+Civic Poll Pop-Ups — small polls that appear on stream with chat-driven voting.
+
+Viewer Badge System — awards “Transparency Advocate,” “Civic Auditor,” or “Policy Crafter” roles based on participation.
+
+📦 Files to Prepare
+
+overlay.psd (Photoshop file for your visual theme)
+
+herolens-promise-tracker.html (embeddable widget)
+
+chat-prompts.txt (stream deck hotkeys or bot commands)
